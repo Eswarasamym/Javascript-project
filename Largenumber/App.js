@@ -12,7 +12,6 @@ function findLargestNumber(numbers) {
   }
   return largest;
 }
-
 const numbersArray = [10, 3, 45, 7, 30];
 const largestNumber = findLargestNumber(numbersArray);
 console.log(`The largest number is ${largestNumber}`); // Outputs: "The largest number is 45"
